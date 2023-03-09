@@ -1,0 +1,6 @@
+<div class="container p-3">
+  <button class="btn btn-primary mb-2" (click)="add()">Add new user</button>
+  <div class="bg-info p-2 rounded pb-3">
+    <app-list-user [users$]="users$"></app-list-user>
+  </div>
+</div>
